@@ -1,0 +1,129 @@
+﻿
+    <body>
+        <script src="~/Content/js/hover-box.js"></script>
+        <link href="~/Content/css/hover-box.css" rel="stylesheet" />
+        <style>
+            /* Remove the navbar's default margin-bottom and rounded borders */
+            .navbar {
+                margin-bottom: 0;
+                border-radius: 0;
+            }
+
+            /* Add a gray background color and some padding to the footer */
+            footer {
+                background-color: #f2f2f2;
+                padding: 25px;
+            }
+        </style>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="@Url.Action("index","Home")">Portfolio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="@Url.Action("Fullstack","Home")">Home</a></li>
+                        <li><a href="@Url.Action("History","Home")">Work History</a></li>
+                     </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron Header1">
+            <div class="container text-center">
+                <h1>Dwayne Naidoo</h1>
+                <p>Software Developer</p>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-3 text-center">
+            <h3>Work Experience In The Following : </h3><br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/csharp.jpg" alt="C#" style="width:100%" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_slideright">
+                            <div class="hvrbox-text">6 Years Work Experience</div>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/dotNet.jpg" alt="Asp.Net" style="width:100%" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_scale">
+                            <div class="hvrbox-text">6 Years Work Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/css.png" alt="Css" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_slideleft">
+                            <div class="hvrbox-text">6 Years Work Experience</div>
+                        </div>
+                    </div>              
+                </div>
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/html.png" alt="HTML5" style="width:100%" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_slideup">
+                            <div class="hvrbox-text">5 Years Work Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="container-fluid bg-3 text-center">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/mysql.png" alt="MySQL" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_scale">
+                            <div class="hvrbox-text">6 Years Work Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/Javascript.png" alt="Javascript" style="width:150%" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_slideleft">
+                            <div class="hvrbox-text">6 Years Work Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/sql.jpg" alt="SQL" style="width:100%" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_slideup">
+                            <div class="hvrbox-text">6 Years Work Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <p></p>
+                    <div class="hvrbox">
+                        <img src="~/Images/android.png" alt="Android" style="width:100%" class="hvrbox-layer_bottom">
+                        <div class="hvrbox-layer_top hvrbox-layer_slideright">
+                            <div class="hvrbox-text">2 Years Work Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+
+       
+    </body>
